@@ -1,0 +1,106 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: brown;
+  background-color: aliceblue;
+  margin: 0%;
+  padding: 0%;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px black;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+header .avatar {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+header h1 {
+  color: rgb(5, 5, 5);
+  font-size: 2em;
+}
+
+article {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+section {
+  margin-bottom: 20px;
+}
+section h2 {
+  color: black;
+  font-size: 2em;
+  margin-left: 10px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+section h3 {
+  color: #000000;
+  font-size: 2em;
+  margin-left: 10px;
+}
+section h4 {
+  color: #000000;
+  font-size: 2em;
+  margin-left: 10px;
+}
+
+aside {
+  float: left;
+  width: 150px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+aside img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+aside h3 {
+  margin-top: 10px;
+  font-size: 2em;
+}
+
+aside h4 {
+  margin-top: 10px;
+  font-size: 2em;
+}
+
+.profile-info {
+  max-width: 400px;
+  margin-left: 200px;
+}
+
+.favorites h3 {
+  color: #000000;
+  font-size: 2em;
+  margin-left: 10px;
+}
+
+.favorites ol {
+  margin: 0;
+  padding-left: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #E0E0E0;
+  margin-top: 20px;
+}/*# sourceMappingURL=styles.css.map */
